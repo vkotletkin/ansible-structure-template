@@ -1,0 +1,7 @@
+# Только для веб-серверов
+nginx_worker_processes: 4
+php_version: "8.1"
+app_memory_limit: "512M"
+
+# Балансировка нагрузки
+load_balancer_url: "https://lb.prod.example.com"

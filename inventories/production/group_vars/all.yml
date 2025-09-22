@@ -1,0 +1,14 @@
+# Общие переменные для ВСЕХ продакшен серверов
+ansible_user: deploy
+timezone: Europe/Moscow
+ntp_servers:
+  - ntp1.example.com
+  - ntp2.example.com
+
+# Мониторинг
+prometheus_url: https://prometheus.prod.example.com
+grafana_url: https://grafana.prod.example.com
+
+# Безопасность
+ssh_port: 22
+fail2ban_enabled: true
